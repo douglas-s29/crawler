@@ -25,3 +25,4 @@ sleep(3)
 navegador.find_element_by_xpath('//*[@id="lithium-root"]/main/div[3]/div/div/div[2]/form/input[1]').send_keys('paris');
 sleep(3)
 navegador.find_element_by_xpath('//*[@id="lithium-root"]/main/div[3]/div/div/div[2]/form/input[1]').submit();
+
