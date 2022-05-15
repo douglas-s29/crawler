@@ -46,7 +46,6 @@ try:
     #seleciona a aba que selecionou
     main_window = navegador.window_handles[1]
     navegador.switch_to.window(main_window)
-
     #selecionar a quantidade de avaliação local
     qtdAvaliacoesLocal = navegador.find_elements_by_xpath(xpathQtdAvaliacaoLocal)
     Avaliacoes = navegador.find_elements_by_xpath(xpathQtdAvaliacoes)
@@ -56,6 +55,7 @@ try:
         Avaliacoes = (value.text)
         print('## Resultado da coleta de dados ##')
         print('Avaliação do local: {} de {} avaliações.'.format(qtdAvaliacoesLocal,Avaliacoes));
+        #Fechar o navegador após executar a tarefa    
         navegador.close()
 #caso execeda o tempo aparecera o print da dando tempo esgotado
 except TimeoutException:
