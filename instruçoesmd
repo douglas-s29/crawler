@@ -1,1 +1,12 @@
 Instruções de como rodar o Script
+
+
+- Você deve ter instalado Python 3.0 e a biblioteca Selenium no seu computador computador;
+
+- Após ter instalado o Python 3.0 e a biblioteca Selenium em seu computador, você deverá instalar um IDE para rodar o crawler;
+
+- Copie o código e de um RUN para executar o código;
+
+- O código basicamente vai entrar no site tripadvisor, irá fazer uma busca pelo local "Congresso nacional - Brasília", vai selecionar o local e vai repassar as informações de Avaliações e a quantidade de Avaliações do local.
+
+- Após finalizar a tarefa do navegador ira fechar e no terminal ira aparecer como informações .
